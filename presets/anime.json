@@ -1,5 +1,5 @@
 {
-    "default_model": "animaPencilXL_v500.safetensors",
+    "default_model": "Illustrious-XL-v0.1",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
@@ -29,32 +29,21 @@
             1.0
         ]
     ],
-    "default_cfg_scale": 6.0,
+    "default_cfg_scale": 5.0,
     "default_sample_sharpness": 2.0,
-    "default_sampler": "dpmpp_2m_sde_gpu",
-    "default_scheduler": "karras",
+    "default_sampler": "euler_ancestral",
+    "default_scheduler": "normal",
     "default_performance": "Speed",
-    "default_prompt": "",
-    "default_prompt_negative": "",
+    "default_prompt": "1 girl",
+    "default_prompt_negative": "worst quality, comic, multiple views, bad quality, low quality, lowres, displeasing, very displeasing, bad anatomy, bad hands, scan artifacts, monochrome, greyscale, signature, twitter username, jpeg artifacts, 2koma, 4koma, guro, extra digits, fewer digits",
     "default_styles": [
-        "Fooocus V2",
-        "Fooocus Semi Realistic",
-        "Fooocus Masterpiece"
+        "Fooocus V2"
     ],
     "default_aspect_ratio": "896*1152",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "animaPencilXL_v500.safetensors": "https://huggingface.co/mashb1t/fav_models/resolve/main/fav/animaPencilXL_v500.safetensors"
+        "animaPencilXL_v500.safetensors": "https://huggingface.co/OnomaAIResearch/Illustrious-xl-early-release-v0/resolve/main/Illustrious-XL-v0.1.safetensors"
     },
     "embeddings_downloads": {},
-    "lora_downloads": {},
-    "previous_default_models": [
-        "animaPencilXL_v400.safetensors",
-        "animaPencilXL_v310.safetensors",
-        "animaPencilXL_v300.safetensors",
-        "animaPencilXL_v260.safetensors",
-        "animaPencilXL_v210.safetensors",
-        "animaPencilXL_v200.safetensors",
-        "animaPencilXL_v100.safetensors"
-    ]
+    "lora_downloads": {}
 }
